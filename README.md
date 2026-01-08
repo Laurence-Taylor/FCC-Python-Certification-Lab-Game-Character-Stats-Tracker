@@ -6,7 +6,7 @@ In this lab, you'll build a game character stats tracker. The program will allow
 
 Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-User Stories:
+## User Stories:
 
     Create a class named GameCharacter that represents a game character and manages character stats.
 
@@ -47,7 +47,8 @@ User Stories:
     Health: 100
     Mana: 50
 
-Usage example
+## Usage example
+```
 Example Code
 
 hero = GameCharacter('Kratos') # Creates a new character named Kratos
@@ -59,4 +60,4 @@ print(hero)  # Displays the updated stats
 
 hero.level_up()  # Levels up the character
 print(hero)  # Displays the stats after leveling up
-
+```
